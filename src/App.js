@@ -1,24 +1,27 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import TweenMax from 'gsap'
 
 class App extends Component {
+  constructor(){
+    super();
+    this.myElement = null;
+    this.myTween = null;
+  }
+
+  componentDidMount() {
+    this.myTween = TweenMax.to(this.myElement, 1, {x: 100, y: 100});
+  }
   render() {
     return (
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
+          <p ref={p => this.myElement = p}>
+            Lets fucking Animate
           </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
+          
         </header>
       </div>
     );
