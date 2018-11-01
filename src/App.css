@@ -1,7 +1,33 @@
 .App {
   text-align: center;
+  background-color: black;
+  height: 100vh;
 }
 
+.Name-slide {
+  font-size: 3.6rem;
+  font-weight: bold;
+  color: #CCAC00;
+  text-shadow: 1px 0.05rem 0.1rem rgb(250, 250, 172);
+  text-decoration: underline;
+}
+
+.nav-h, .nav-h1, .nav-h2, .nav-h3 {
+  color: white;
+  text-align: left;
+  border: 1px solid #CCAC00;
+  width: 90px;
+  padding: 8px;
+  text-align: center;
+  margin-left: -150px
+}
+
+.nav-h:hover, .nav-h1:hover, .nav-h2:hover, .nav-h3:hover{
+  background: rgb(250, 250, 250);
+  color: #CCAC00;
+  cursor: pointer;
+  /* box-shadow:  */
+}
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 40vmin;
