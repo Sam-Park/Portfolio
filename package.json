@@ -6,7 +6,9 @@
     "gsap": "^2.0.2",
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
-    "react-scripts": "2.0.5"
+    "react-scripts": "2.0.5",
+    "react-tilt": "^0.1.4",
+    "react-universal-tilt": "^1.1.2"
   },
   "scripts": {
     "start": "react-scripts start",

@@ -1,36 +1,82 @@
 .App {
   text-align: center;
   background-color: black;
-  height: 100vh;
+  min-height: 1440px;
+  height: 100%;
+  
+  
+}
+.Landing-Container {
+  display: flex;
 }
 
 .Name-slide {
+  text-align: left;
+  margin-top: 45px;
+  margin-left: 30px;
   font-size: 3.6rem;
   font-weight: bold;
+  color: rgb(255, 255, 255);
+  width: 70%;
+  border-bottom: 3px solid #CCAC00;
+  /* text-shadow: 0.01rem 0.05rem 0.01rem rgb(250, 250, 172); */
+}
+
+.Sur-Name-Slide {
+  text-align: left;
+  font-size: 3.6rem;
+  font-weight: bold;
+  /* opacity: 0.45; */
   color: #CCAC00;
-  text-shadow: 1px 0.05rem 0.1rem rgb(250, 250, 172);
-  text-decoration: underline;
+  margin-top: -65px;
+  margin-left: 103px;
+  /* text-shadow: 1px 0.05rem 0.1rem rgb(250, 250, 172); */
 }
 
 .nav-h, .nav-h1, .nav-h2, .nav-h3 {
   color: white;
+  font-size: 1.9rem;
   text-align: left;
   border: 1px solid #CCAC00;
-  width: 90px;
-  padding: 8px;
+  width: 165px;
+  padding: 20px;
   text-align: center;
-  margin-left: -150px
+  margin-left: 30px
 }
 
 .nav-h:hover, .nav-h1:hover, .nav-h2:hover, .nav-h3:hover{
-  background: rgb(250, 250, 250);
+  background: white;
   color: #CCAC00;
+  /* margin-bottom: -0.6px; */
   cursor: pointer;
-  /* box-shadow:  */
+  /* -moz-box-shadow:    inset 1px 1px 1px #000000;
+  -webkit-box-shadow: inset 1px 1px 1px #000000;
+  box-shadow:         inset 1px 1px 1px #000000; */
 }
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+
+.Left-container {
+  margin-top: 65px;
+  /* border: 2px solid #CCAC00; */
+  width: 17.5%;
+}
+
+.Center-Container-About {
+  margin-top: -10px;
+  width: 75%;
+  height: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.About-Me {
+  color: white;
+  border-bottom: 3px solid white;
+}
+
+.About-Span {
+  color: #CCAC00;
+  border-bottom: 3px solid #CCAC00;
 }
 
 .App-header {
@@ -44,15 +90,46 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+
+
+.Center-Container-Projects {
+  margin-top: 5%;
+  width: 75%;
+  height: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Falcano-Wrapper {
+  margin-left: 37%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  
+}
+
+.Falcano-Wrapper:hover{
+  cursor: pointer;
+  width: 350px;
+  height: 350px;
+  
+}
+
+.Falcano-Card {
+  width: 350px;
+  height: 350px;
+  cursor: pointer;
+  border: 1px solid #CCAC00;
+}
+
+.Falcano-Card:hover {
+  cursor: pointer;
+}
+
+.Falcano-Image {
+  width: 300px;
+  height: 300px;
+  margin-top: 8%;
 }

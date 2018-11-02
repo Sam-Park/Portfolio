@@ -6738,6 +6738,16 @@ react-scripts@2.0.5:
   optionalDependencies:
     fsevents "1.2.4"
 
+react-tilt@^0.1.4:
+  version "0.1.4"
+  resolved "https://registry.yarnpkg.com/react-tilt/-/react-tilt-0.1.4.tgz#0ac1f33674a3fff6c617cf411002d7ecdd2ebcb1"
+
+react-universal-tilt@^1.1.2:
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/react-universal-tilt/-/react-universal-tilt-1.1.2.tgz#ea768c982e2d8e62b08806573cb12d0f4f0edde3"
+  dependencies:
+    universal-tilt.js "^1.2.0"
+
 react@^16.5.2:
   version "16.5.2"
   resolved "https://registry.yarnpkg.com/react/-/react-16.5.2.tgz#19f6b444ed139baa45609eee6dc3d318b3895d42"
@@ -7932,6 +7942,10 @@ unique-slug@^2.0.0:
   resolved "https://registry.yarnpkg.com/unique-slug/-/unique-slug-2.0.1.tgz#5e9edc6d1ce8fb264db18a507ef9bd8544451ca6"
   dependencies:
     imurmurhash "^0.1.4"
+
+universal-tilt.js@^1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/universal-tilt.js/-/universal-tilt.js-1.2.0.tgz#dd6d27136d1d1d70a1fb3acef8c89af608cf5aa5"
 
 universalify@^0.1.0:
   version "0.1.2"
