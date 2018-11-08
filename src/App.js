@@ -62,7 +62,8 @@ class App extends Component {
           </div>
         </div>
 
-        <div id="projects" className="Center-Container-Projects">
+        <div className="Center-Container-Projects">
+        <span  id="projects"></span>
           <h1 className="Projects-H1">
             Proje
             <span className="Projects-H1-Span">cts.</span>
@@ -79,7 +80,7 @@ class App extends Component {
                 "shine-opacity": 0.3,
                 shadow: "true",
                 shine: "true",
-                max: 5,
+                max: 3,
                 perspective: 500,
                 onMouseMove: el => myFunc(el)
               }}
