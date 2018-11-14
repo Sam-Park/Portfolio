@@ -66,7 +66,7 @@ class App extends Component {
         <span  id="projects"></span>
           <h1 className="Projects-H1">
             Proje
-            <span className="Projects-H1-Span">cts.</span>
+            <span className="Projects-H1-Span">cts. </span>
           </h1>
 
           <h1 className="Falcano-H1">Fal<span className="Falcano-H1-Span">cano.</span></h1>
